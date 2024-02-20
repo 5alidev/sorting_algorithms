@@ -25,7 +25,7 @@ void swapNodes(listint_t **headRef, listint_t **node1, listint_t *node2);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void swap_values(int *val_1, int *val_2);
-void quick_sort_recursion(int array[], size_t low, size_t high);
-size_t partition(int array[], size_t low, size_t high);
+void quick_sort_recursion(int array[], size_t size, int low, int high);
+size_t partition(int array[], size_t size, int low, int high);
 
 #endif /* SORT_H */
